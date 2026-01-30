@@ -9,3 +9,4 @@ ENV AIRFLOW_HOME=/opt/airflow
 COPY requirements.txt /
 
 RUN pip install --no-cache-dir -r /requirements.txt
+# use pip to install dependencies listed in requirements.txt
